@@ -1,0 +1,52 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 450" width="450" height="450">
+	<title>TylerCookeLogo</title>
+	<defs>
+		<linearGradient id="g1" x1="13.9" y1="225.3" x2="92.9" y2="304.2" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#3d8ecd"/>
+			<stop offset=".6" stop-color="#2a57ae"/>
+			<stop offset="1" stop-color="#2a46a5"/>
+		</linearGradient>
+		<linearGradient id="g2" x1="67.2" y1="225.3" x2="120.9" y2="171.6" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#1f59af"/>
+			<stop offset=".3" stop-color="#2970bc"/>
+			<stop offset="1" stop-color="#61d2e0"/>
+		</linearGradient>
+		<linearGradient id="g3" x1="293.9" y1="196" x2="372.9" y2="275" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#3d8ecd"/>
+			<stop offset=".6" stop-color="#2a57ae"/>
+			<stop offset="1" stop-color="#2a46a5"/>
+		</linearGradient>
+		<linearGradient id="g4" x1="322" y1="278" x2="375.7" y2="224.4" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#1f5ab0"/>
+			<stop offset=".3" stop-color="#2a70bc"/>
+			<stop offset="1" stop-color="#61d3e1"/>
+		</linearGradient>
+		<linearGradient id="g5" x1="226.8" y1="250.1" x2="334.4" y2="142.5" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#1f59af"/>
+			<stop offset=".3" stop-color="#2970bc"/>
+			<stop offset="1" stop-color="#61d2e0"/>
+		</linearGradient>
+	</defs>
+	<style>
+		.s0 { fill: url(#g1) } 
+		.s1 { fill: url(#g2) } 
+		.s2 { fill: url(#g3) } 
+		.s3 { fill: url(#g4) } 
+		.s4 { fill: url(#g5) } 
+		.s5 { fill: #808080 } 
+		.s6 { fill: #666666 } 
+	</style>
+	<g id="LChev">
+		<path id="LChevBot" class="s0" d="m69.1 277.6l-53.8-53.7 25.4-25.4 78.8 79.1z"/>
+		<path id="LChevTop" class="s1" d="m40.6 198.6l28.4-28.4h50.4l-53.6 53.7z"/>
+	</g>
+	<g id="RChev">
+		<path id="RChevBot" class="s2" d="m345.8 169.2l53.7 53.8-25.3 25.3-78.9-79.1z"/>
+		<path id="RChevTop" class="s3" d="m374.3 248.2l-28.4 28.4h-50.5l53.7-53.6z"/>
+		<path id="Slash" class="s4" d="m345.8 169.2l-57.8 107.6-49.8 0.1 57.2-107.7v0.1z"/>
+	</g>
+	<g id="Text">
+		<path id="T" class="s5" aria-label="T"  d="m113.6 201.9h20.5v62.1h18.8v-62.1h20.5v-15.1h-59.8z"/>
+		<path id="C" class="s6" aria-label="C" d="m172.4 225.3c0 23.1 16.1 39.3 38.9 39.3 18.3 0 32.2-10.3 36.6-27h-20.7c-3.2 6.6-9 9.9-16.2 9.9-11.5 0-19.4-8.6-19.4-22.2 0-13.7 7.9-22.2 19.4-22.2 7.2 0 13 3.3 16.2 9.9h20.7c-4.4-16.8-18.3-27.1-36.6-27.1-22.8 0-38.9 16.3-38.9 39.4z"/>
+	</g>
+</svg>

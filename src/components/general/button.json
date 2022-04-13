@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_general_buttons",
+  "info": {
+    "displayName": "Button",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Theme": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary"
+      ],
+      "default": "primary"
+    },
+    "Link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.link"
+    },
+    "PrefixIcon": {
+      "type": "string"
+    },
+    "SuffixIcon": {
+      "type": "string"
+    }
+  }
+}

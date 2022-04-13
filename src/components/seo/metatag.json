@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_seo_metatag",
+  "info": {
+    "displayName": "MetaTag",
+    "icon": "file-code",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "text"
+    }
+  }
+}

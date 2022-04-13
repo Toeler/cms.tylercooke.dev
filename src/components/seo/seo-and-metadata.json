@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_seo_seo_and_metadata",
+  "info": {
+    "displayName": "SEO & Metadata",
+    "icon": "code",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "MetaTags": {
+      "displayName": "Metadata",
+      "type": "component",
+      "repeatable": true,
+      "component": "seo.metatag"
+    },
+    "PreventIndexing": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "IncludeInSitemap": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "StructuredData": {
+      "type": "json"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

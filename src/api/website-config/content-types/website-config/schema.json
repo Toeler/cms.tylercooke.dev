@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "website_configs",
+  "info": {
+    "singularName": "website-config",
+    "pluralName": "website-configs",
+    "displayName": "Website Config"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "SiteTitle": {
+      "type": "string"
+    },
+    "URL": {
+      "type": "string"
+    },
+    "FrontPage": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::page.page",
+      "required": true
+    },
+    "BrandLogo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
